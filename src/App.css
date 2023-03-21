@@ -1,0 +1,82 @@
+#root {
+  
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+img {
+  height: 30em;
+  width: 40em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.attribute {
+  background-color: brown;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.discoverButton {
+  width: 100px;
+  background-color: brown;
+}
+
+.image-container {
+  border: 2px solid black;
+  width: 300px;
+  overflow-y: scroll;
+  height: 900px;
+  
+  
+}
+
+.banlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 250px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  
+}
+
+.gallery-screenshot {
+  width: 200px;
+  height: 200px;
+}
+
+ul.images {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-y: auto;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .home-page {
+    flex: 100%;
+  }
+}
