@@ -31,8 +31,9 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
+![venivici](https://user-images.githubusercontent.com/80371588/226509374-c5116a00-0f21-4f1e-86be-bd7f49bbd62f.gif)
 
-<img src='https://imgur.com/2v8yseT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
